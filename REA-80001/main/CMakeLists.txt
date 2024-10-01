@@ -1,4 +1,13 @@
 idf_component_register(
-    SRCS "main.cpp"
-    INCLUDE_DIRS ""
+    SRCS 
+    "main.cpp"
+    "src/LED_Strip.cpp"
+    "src/Power_Supply.cpp"
+    "src/CAN.cpp"
+    "src/DMX.cpp"
+    "src/Serial_Parser.cpp"
+    "src/Support.cpp"
+    INCLUDE_DIRS 
+    "."
+    "src"
 )
