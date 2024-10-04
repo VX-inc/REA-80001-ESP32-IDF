@@ -7,7 +7,14 @@ idf_component_register(
     "src/DMX.cpp"
     "src/Serial_Parser.cpp"
     "src/Support.cpp"
+    "lib/Adafruit_NeoPixel/src/Adafruit_NeoPixel.cpp"
+    "lib/Adafruit_NeoPixel/src/esp.c"
+    "lib/ESP32-TWAI-CAN/src/ESP32-TWAI-CAN.cpp"
+    "lib/SparkFun_DMX_Shield_Library/src/SparkFunDMX.cpp"
     INCLUDE_DIRS 
     "."
     "src"
+    "lib/Adafruit_NeoPixel/src"
+    "lib/ESP32-TWAI-CAN/src"
+    "lib/SparkFun_DMX_Shield_Library/src"
 )
