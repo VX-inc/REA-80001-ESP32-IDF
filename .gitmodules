@@ -1,0 +1,3 @@
+[submodule "REA-80001/components/arduino"]
+	path = REA-80001/components/arduino
+	url = https://github.com/espressif/arduino-esp32.git
